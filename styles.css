@@ -1,0 +1,41 @@
+body{
+
+background-color: brown;
+
+}
+
+
+
+#call{
+
+
+border: 2px solid black;
+border-radius: 4px;
+width: 200px;
+background-color: aliceblue;
+margin: 100px 400px;
+
+}
+#display{
+
+height: 40px;
+width: 172px;
+margin: 10px;
+
+
+}
+
+.button_container{
+
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+
+}
+.button{
+
+width: 40px;
+height: 30px;
+margin: 7px;
+
+}
