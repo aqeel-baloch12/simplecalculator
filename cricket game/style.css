@@ -1,0 +1,45 @@
+body {
+    
+    background-image: url(aaaa.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .aq {
+    color: #1faa2a;
+    
+    text-decoration: dotted;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    height: auto; /* Adjusted to auto for dynamic height */
+    width: 950px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+  }
+  
+  .aq h1 {
+    margin: 0;
+    padding: 20px; 
+    background-color: transparent; 
+  }
+  
+  
+  .aq h1:hover {
+    color: black;
+    
+  }
+  
+  .aq button {
+    color: rgb(16, 19, 17);
+    width: 90px;
+    height: 40px;
+    background-color: cornflowerblue;
+  }
+  
+  
+  .aq button:hover {
+    color: rgb(19, 14, 3);
+    background-color: rgb(208, 255, 0);
+  }
+  
