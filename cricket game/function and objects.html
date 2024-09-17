@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>function and onjects</title>
+
+</head>
+<body>
+    <script>
+//   let product={
+    
+//      company:'AQWEBDEVELOPING',
+//      course:'DEVELOPING TOOL',
+//      type:'M',
+//      'delivery-time':'same day of time',
+
+//   }
+//   console.log(`NAME=${product.company},\nCOURES=${product.course},\nPRICE=${product.type}`);
+
+// //   let copyproduct=product;
+// //   console.log(product);
+// //   product.company='shop';
+// //   console.log(product);
+// //   product.course='web';
+// //   console.log(product);
+     
+// console.log(product[`delivery-time`]);
+     
+   
+
+        // Product objects
+        let product1 = {
+            company: 'AQWEBDEVELOPING',
+            course: 'DEVELOPING TOOL',
+            type: 'M',
+            'delivery-time': 'same day',
+        };
+
+        let product2 = {
+            company: 'AQWEBDEVELOPING',
+            course: 'WEB DEVELOPMENT',
+            type: 'M',
+            'delivery-time': 'next day',
+        };
+
+        // Function to compare two product objects
+        function aqeel(productA, productB) {
+            // Compare keys
+            const keysA = Object.keys(productA);
+            const keysB = Object.keys(productB);
+
+            // Check if the number of keys is different
+            if (keysA.length !== keysB.length) {
+                return false;
+            }
+
+            // Check if values for each key are the same
+            for (let key of keysA) {
+                if (productA[key] !== productB[key]) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        // Logging the products
+        console.log('Product 1:', product1);
+        console.log('Product 2:', product2);
+
+        // Comparing products using the aqeel function
+        const areEqual = aqeel(product1, product2);
+        console.log(`Are product1 and product2 equal? ${areEqual}`);
+   
+
+
+    </script>
+
+
+</body>
+</html>
